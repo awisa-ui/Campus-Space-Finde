@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Space Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Campus Space Finder</h1>
+        <p>Find available classrooms and study spaces on campus.</p>
+    </header>
+
+    <main>
+        <div class="controls">
+            <input type="text" id="search-input" placeholder="Search by room name (e.g., 'Room 101')">
+            <div class="checkbox-container">
+                <input type="checkbox" id="available-now-checkbox">
+                <label for="available-now-checkbox">Show only available now</label>
+            </div>
+        </div>
+
+        <div id="classroom-list">
+            <!-- Classroom cards will be dynamically inserted here by JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2023 Campus Space Finder</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
